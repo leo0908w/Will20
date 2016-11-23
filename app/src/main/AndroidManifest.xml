@@ -3,6 +3,10 @@
     package="com.org.iii.will20">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!--<uses-permission android:name="android.permission.ACCOUNT_MANAGER" />-->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -18,5 +22,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>
